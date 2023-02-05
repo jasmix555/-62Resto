@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgba(255,252,239,1);
+}
+
+.container{
+    height: 120px;
+}
+
+#logo {
+    float: left;
+    padding-left: 60px;
+    transition: 1s;
+    margin-left: 3%;
+}
+
+#logo:hover {
+    transform: rotatex(360deg);
+}
+
+nav {
+    float: right;
+    padding: 35px 160px 35px 35px;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    background-color: #918686;
+    width: 100%;
+    height: 725px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box2 h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+}
+
+.contactus {
+    float: left;
+    width: 450px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.contactus h2{
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.iconss{
+    width: 42px;
+    height: 100px;
+    float: left;
+    margin-left: 25px;
+}
+
+.contactus .cntct{
+    margin-left: 20px;
+    float: left;
+    line-height: 60px;
+    margin-top: -12px;
+}
+
+.contactus .email{
+    padding-bottom: 15px;
+}
+
+.locplace{
+    float: right;
+    width: 720px;
+    height: 495px;
+    margin-right: 80px;
+    margin-top: 35px;
+}
+
+.locplace h2{
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.eigyou{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 520px;
+    height: 280px;
+}
+
+.eigyou h2{
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 440px;
+}
+
+.worktime{
+    display: flex;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.eigyou .days{
+    float: left;
+    margin-left: 30px;
+}
+
+.eigyou .time{
+    float: right;
+    margin-left: 60px;
+}
+
+.sns{
+    display: block;
+    width: 1330px;
+    height: 125px;
+    background: #EAE9E7;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.insta {
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/logo/insta_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.insta:hover {
+    background-image: url(../img/logo/insta_red_logo.png);
+}
+
+.twitter{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/logo/twitter_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.twitter:hover{
+    background-image: url(../img/logo/twitter_red_lgo.png);
+}
+
+.maintext {
+    margin-bottom: 50px;
+    clear: both;
+    padding-top: 50px;
+}
+
+.maintext h1 {
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    border-top: dashed 6px rgba(0, 0, 0, 1);
+    border-bottom: dashed 6px rgba(0, 0, 0, 1);
+    width: 200px;
+    margin: 0 auto;
+}
+
+.subtext{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mainimg{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.info{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.info h1{
+    color: #880c0c;
+}
+
+.info p{
+    line-height: 32px;
+}
+.data1{
+    padding: 20px;
+}
+
+.data2{
+    padding: 20px;
+}
+
+.data3{
+    padding: 20px;
+}
+
+.kitchen{
+    opacity: 0.7;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 30px;
+}

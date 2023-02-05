@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgba(255, 252, 239, 1);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.header {
+    width: auto;
+    height: 170px;
+}
+
+#logo {
+    float: left;
+    padding-left: 60px;
+    transition: 1s;
+    margin-left: 3%;
+}
+
+#logo:hover {
+    transform: rotatex(360deg);
+}
+
+nav {
+    float: right;
+    padding: 35px 160px 35px 35px;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    /* border: solid 1px green; */
+    background-color: #918686;
+    width: 100%;
+    height: 725px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+}
+
+.box2 h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+}
+
+.contactus {
+    float: left;
+    /* border: solid 2px blue; */
+    width: 450px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.contactus h2 {
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.iconss {
+    /* border: solid 1px green; */
+    width: 42px;
+    height: 100px;
+    float: left;
+    margin-left: 25px;
+}
+
+.contactus .cntct {
+    margin-left: 20px;
+    /* border: solid 1px red; */
+    float: left;
+    line-height: 60px;
+    margin-top: -12px;
+}
+
+.contactus .email {
+    padding-bottom: 15px;
+    /* border: 1px solid pink; */
+}
+
+.locplace {
+    /* border: solid 2px red; */
+    float: right;
+    width: 720px;
+    height: 495px;
+    margin-right: 80px;
+    margin-top: 35px;
+}
+
+.locplace h2 {
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.eigyou {
+    /* border: solid 2px green; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 520px;
+    height: 280px;
+}
+
+.eigyou h2 {
+    border-bottom: dashed 6px rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 440px;
+}
+
+.worktime {
+    display: flex;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.eigyou .days {
+    float: left;
+    margin-left: 30px;
+}
+
+.eigyou .time {
+    float: right;
+    margin-left: 60px;
+}
+
+.sns {
+    display: block;
+    width: 1330px;
+    height: 125px;
+    background: #EAE9E7;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.insta {
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/logo/insta_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.insta:hover {
+    background-image: url(../img/logo/insta_red_logo.png);
+}
+
+.twitter {
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/logo/twitter_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.twitter:hover {
+    background-image: url(../img/logo/twitter_red_lgo.png);
+}
+
+.menutext {
+    margin-bottom: 50px;
+}
+
+.menutext h1 {
+    font-size: 34px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    border-top: dashed 6px rgba(0, 0, 0, 1);
+    border-bottom: dashed 6px rgba(0, 0, 0, 1);
+    width: 200px;
+    margin: 0 auto;
+}
+
+.riceheader {
+    width: 0;
+    height: 250px;
+    display: block;
+}
+
+.riceheader h1 {
+    background: url(../img/rice.jpeg);
+    background-position: center left;
+    background-size: cover;
+    clear: both;
+    width: 1430px;
+    height: 230px;
+    margin-top: 60px;
+    opacity: 0.7;
+}
+.noodlesheader {
+    width: 0;
+    height: 250px;
+    display: block;
+}
+
+.noodlesheader h1 {
+    background: url(../img/Noodles.jpeg);
+    background-position: center left;
+    background-size: cover;
+    clear: both;
+    width: 1430px;
+    height: 230px;
+    margin-top: 60px;
+    opacity: 0.7;
+}
+
+.sdheader {
+    width: 0;
+    height: 250px;
+    display: block;
+}
+
+.sdheader h1{
+    background: url(../img/sidedishes.jpeg);
+    background-position: center left;
+    background-size: cover;
+    clear: both;
+    width: 1430px;
+    height: 230px;
+    margin-top: 60px;
+    opacity: 0.7;
+}
+
+.menuitemwrap{
+    width: 1000px;
+    margin:  0 auto;
+    padding: 25px;
+}
+
+.menuitemwrap .card{
+    float: left ;
+    right: -35px;
+}
+
+.clear{
+    clear: both;
+}
+
+.menu .card{
+    position: relative;
+    width: 370px;
+    height: 250px;
+    background: #fff;
+    margin: 20px 85px 20px 10px;
+    padding: 20px 15px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    
+}
+
+.menu .card:hover {
+    height: 400px;
+    animation: rotate 1s forwards ease-out;
+}
+
+.menu .card:hover p {
+    opacity: 1;
+}
+
+.menu .card .imgBx img {
+    transition: 0.4s ease-in-out;
+}
+.menu .card:hover .imgBx img {
+    transform: rotate(3deg) scale(1.08);
+}
+
+.menu .card .imgBx {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.menu .card .imgBx img {
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.menu .card .content {
+    position: relative;
+    padding: 15px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.menu .card .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 5px;
+    transition-delay: 0.3s;
+}
+
+.menu p {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0) scale(1);
+
+    }
+
+    100% {
+        transform: translateX(100px) scale(1.5);
+
+
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg) rotateX(0deg);
+
+    }
+
+    100% {
+        transform: rotateZ(-2deg) rotateX(-12deg);
+
+
+    }
+}
+
+.card .imgbox{
+    display: block;
+    text-align: center;
+}
+
+.noodles .content h2{
+    font-size: 20px;
+}
+
+.ricetitle, .noodlestitle, .sdtitle{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.container{
+    height: 120px;
+}
